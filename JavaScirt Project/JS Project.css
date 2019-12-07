@@ -1,0 +1,100 @@
+@charset "utf-8";
+body {
+	background-color:  #404040;
+}
+h2 {
+	color: white;
+	text-align: center;
+	font-family: Arial;
+	border-style: double;
+	background-color: lightgrey;
+}
+p {
+	font-family: Verdana;
+	font-size: 18px;
+	align-content: center;
+	color: white;
+}
+img {
+	align-items: center;
+	
+}
+figure {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+	color: white;
+}
+figcaption {
+	color: white;
+	font-family: Arial;
+	align-items: center;
+	font-size: 24px;
+}
+a {
+	color:black;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.75;
+	}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: dimgrey;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.image {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  width: 400px;
+  height: 350px; 
+}
+h1 {
+	font-family: fontawesome;
+}
+p {
+	color: white;
+}
+a1 {
+	color: white;
+	font-size: 40px;
+	font-family: Cooper Black;
+}
+p1 {
+	font-family: Verdana;
+	font-size: 28px;
+	color: white;
+}
+p2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+}
+.annotated:hover li {
+   border:2px solid black;
+   background-color:rgba(255,255,255,0.8);
+}
+img {
+	box-shadow: 5px 5px;
+}

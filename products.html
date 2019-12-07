@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="products.css">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width : 879px ){
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 50px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+body {
+  margin: 0;
+}
+
+</style>
+</head>
+	
+<script>
+function bigImg(x) {
+	x.style.height = "445px";
+	x.style.width = "330px";
+}	
+	
+function normalImg(x) {
+	x.style.height = "340px";
+	x.style.width = "280px";
+}	
+	
+function bigImg1(x) {
+	x.style.height = "270px";
+	x.style.width = "465px";
+}	
+	
+function normalImg1(x) {
+	x.style.height = "250px";
+	x.style.width = "450px";
+}		
+	
+function bigImg2(x) {
+	x.style.height = "330px";
+	x.style.width = "310px";
+}	
+	
+function normalImg2(x) {
+	x.style.height = "300px";
+	x.style.width = "290px";
+}	
+	
+function bigImg4(x) {
+	x.style.height = "330px";
+	x.style.width = "310px";
+}	
+	
+function normalImg4(x) {
+	x.style.height = "300px";
+	x.style.width = "290px";
+}	
+	
+</script>
+<body>
+	
+<div class="header">
+	<a href="Major.html" class="logo">Vision<font color="lightfreen#1DE440green">.com</font></a>
+  <div class="header-right">
+    <a href="Major.html">Home</a>
+    <a href="contactus.html"#contact"">Contact us</a>
+  </div>
+</div>
+	
+<h1>Our products</h1>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img onmouseover="bigImg1(this)" onmouseout="normalImg1(this)" src="sun.jfif" alt="Sun glasses" width="450" height="250">
+      <div class="container">
+        <center><h2>Sun Glasses</h2>
+        <p class="title">Best choice for beach</p>
+		  <p>Sun glasses that will make you look cool</p></center>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="reading.jpg" alt="Glasses" width = "280px" height = "340px"></center>
+      <div class="container">
+        <center><h2>Glasses</h2>
+        <p class="title">Good for daily wearing</p>
+		  <p>Nice looking glasses that will make you look nerdy (lol, mb no).</p></center>
+      </div>
+    </div>
+  </div>
+  <div class="column"> 
+    <div class="card">
+      <center><img onmouseover="bigImg4(this)" onmouseout="normalImg4(this)" src="contact .lenses.jpg"/w3images/team3.jpg" alt="Eyes contacts" width="290" height="300">
+      <div class="container"></center>
+        <center><h2>Contact lenses</h2>
+        <p class="title">Alternative for glasses</p>
+		  <p>These are made for those who doesn't like glasses.</p></center>
+      </div>
+    </div>
+  </div>
+</div>
+		  
+ <div class="column"> 
+    <div class="card">
+      
+      </div>
+    </div>
+  </div>
+</div>
+	
+ <div class="column"> 
+    <div class="card">
+      <center><img onmouseover="bigImg2(this)" onmouseout="normalImg2(this)" src="case.jpg" alt="Eyes contacts" width="290" height="300">
+      <div class="container"></center>
+        <center><h2>Case for your glasses</h2>
+        <p class="title">Best protection for your favorite ones</p>
+		  <p>Portable and fits anywhere!</p></center>
+      </div>
+    </div>
+  </div>
+</div>
+		  
+ <div class="column"> 
+    <div class="card">
+      
+      </div>
+    </div>
+  </div>
+</div>
+		  
+</body>
+</html>

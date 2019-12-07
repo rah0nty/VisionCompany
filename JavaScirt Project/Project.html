@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>JS Project</title>
+	<link href="Project.css" rel="stylesheet" type="text/css">
+	<script src="jQuery.js"></script>
+	<style>
+#myDIV {
+  		width: 100%;
+  		padding: 50px 0;
+  		text-align: center;
+  		background-color: #1AA326;
+  		margin-top: 20px;
+}
+	</style>
+	</head>
+<body>
+<div class="header">
+	<a href="../Major.html" class="logo">Vision<font color="lightfreen#1DE440green">.com</font></a>
+  <div class="header-right">
+    <a href="../Major.html">Home</a>
+    <a href="../contactus.html">Contact us</a>
+  </div>
+</div>
+	<script> 
+		function selectReadingglasses(){
+			document.getElementById("reading").style.border="5px solid black";
+			document.getElementById("reading").style.width="156px";
+			
+			document.getElementById("sun").style.width="100px";
+			document.getElementById("sun").style.border="none";
+			
+			document.getElementById("case").style.width="100px";
+			document.getElementById("case").style.border="none";
+		}
+		function selectSunglasses(){
+			document.getElementById("sun").style.border="5px solid black";
+			document.getElementById("sun").style.width="156px";
+			
+			document.getElementById("reading").style.width="100px";
+			document.getElementById("reading").style.border="none";
+	
+			document.getElementById("case").style.width="100px";
+			document.getElementById("case").style.border="none";
+		}
+		function selectCase(){
+			document.getElementById("case").style.border="5px solid black";
+			document.getElementById("case").style.width="156px";
+			
+			document.getElementById("reading").style.width="100px";
+			document.getElementById("reading").style.border="none";
+	
+			document.getElementById("sun").style.width="100px";
+			document.getElementById("sun").style.border="none";
+		}
+	</script>
+
+	<script>
+		function goToBed()
+		{
+			alert("Congrats, you are blind too");
+		}
+	</script>
+
+	<script>
+		function placeOrder()
+		{
+			document.getElementById("orderDiv").innerHTML="<p>Order placed. Restart page to continue shopping</p>"
+			alert("Order will be ready in couple of days");
+		}
+	</script>
+
+	<script>
+		function addContactlenses()
+		{
+			document.getElementById("orderDiv").innerHTML="<p>We are currently out of lenses. Please try to order it later</p>"
+			alert("Sorry, we are currently out of contact lenses. Please try to order it later");
+		}
+	</script>
+
+<script>
+$(document).ready(function(){
+  $(".btn1").click(function(){
+    $("#meme").fadeOut()
+  });
+  $(".btn2").click(function(){
+    $("#meme").fadeIn();
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("p5").mouseover(function(){
+    $("p5").css("background-color", "#1DE440");
+  });
+  $("p5").mouseout(function(){
+    $("p5").css("background-color", "lightgray");
+  });
+});
+</script>
+
+<script>
+function bigImg(x) {
+  x.style.height = "250px";
+  x.style.width = "250px";
+}
+
+function normalImg(x) {
+  x.style.height = "200px";
+  x.style.width = "200px";
+}
+</script>
+
+<div class="button">
+	<button type="button" onClick="goToBed();">Press here if you wear glasses
+	</button>
+</div>
+
+<script>
+function myFunction() {
+	var x = document.getElementById("myDIV");
+  	if (x.style.display === "none") {
+    x.style.display = "block";
+  	} else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({left: '980px'});
+  });
+});
+</script> 
+
+<div>
+<p>
+</p>
+</div>
+
+	<img src="logo.png" alt="Logo" width="700" height="650" class="image">
+
+<div>
+<p>    
+</p>
+	<center><p5>This website is created to help you find best model for glasses and lenses. Also here you can even check your vision.</p5></center>
+<p>        
+</p>
+</div>
+
+<div>
+<button onclick="myFunction()"><p4>Stand away from screen and check your vision. Press here to hide vision checker.</p4></button>
+</div>
+<p>
+</p>
+
+<!--https://www.google.com/search?hl=en&q=driver+licence+eye+test+texas&tbm=isch&tbs=simg:CAQSkwEJDwUZ9PDCkCYahwELEKjU2AQaAAwLELCMpwgaYgpgCAMSKJoDmwOvCOkTswiyCPoJugiEA8gIsjW2NNE9tTS0NLE1_1D2xNKo9ojQaMJI3KE89c55zKfuUfw2U7e5dlSWw0U8Zs_1vNlGirMw25slcnUIGZlm4NB1c3Gu-eyyAEDAsQjq7-CBoKCggIARIE-x06xww&sa=X&ved=0ahUKEwinlLC2qNXhAhVGUK0KHdvxDlIQwg4IKCgA&biw=1366&bih=625&surl=1&safe=active&ssui=on#imgrc=DwUZ9PDCkCZ3FM:-->
+<div id="myDIV">
+	<image src="vision.checker.png" width="500" height="450"></image>
+</div>
+
+<p>
+</p>
+<!--https://www.google.com/search?hl=en&q=glasses+funny&tbm=isch&tbs=simg:CAQSlwEJPV-5dVmqW20aiwELEKjU2AQaBAgXCD0MCxCwjKcIGmIKYAgDEiimD6wB_1wSUD50PkQ-eD5MPnA_1OGY0tji2MLYst7DPzJYkt-ySVLaswGjBFeSMJmwbbG9ByoI1LUwPeSz6feMbyHqJrx3WQGXpLQwF-VFU40MhPxk2RjBT9iEMgBAwLEI6u_1ggaCgoICAESBAfaVZwM&sa=X&ved=0ahUKEwiH1IuVqNXhAhVHA6wKHfxODowQwg4IKCgA&biw=1366&bih=625&surl=1&safe=active&ssui=on#imgrc=MTk2Ba3FGsGxOM:-->
+<p>
+</p>
+<div id="meme">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="meme.jpg" alt="Man weareing glasses with surprised face" width="50" height="50">
+</div>
+
+<p>
+</p>
+
+<button class="btn1">NOOO!</button>
+<p>
+</p>
+<button class="btn2">Meme?</button>
+
+
+<div class="paragraph">
+<p2>
+Here you can find any glasses, contact lenses, cases and buy them!!!!
+</p2>
+<p2>Select items</p2>
+</div>
+
+<p>
+
+<!--https://www.google.com/search?hl=en&q=reading+glasses&tbm=isch&tbs=simg:CAQSkwEJ32z1-P5y6RIahwELEKjU2AQaAAwLELCMpwgaYgpgCAMSKNACoga9B6EGsQewB60dgwO8B6wdpSXOIPwk9ySdIfIyxzPzMuEgsiUaMPc3785VEaqnJKI7wCjw02lwt5uLTsW7e59ebhIaYWafomJRDvpfS_185M9aRvowCfSAEDAsQjq7-CBoKCggIARIE_1T4Glgw&sa=X&ved=0ahUKEwiN8e-9qNXhAhVNY6wKHWy8A0cQwg4IKCgA&biw=1366&bih=625&surl=1&safe=active&ssui=on#imgrc=fq6D6HVRwKdJsM:-->
+<img id="reading" onclick="selectReadingglasses()" src="reading.jpg"/>
+	
+<!--https://www.google.com/search?hl=en&q=gucci+sunglasses+gg0008s&tbm=isch&tbs=simg:CAQSkwEJkoYzkTp5RmwahwELEKjU2AQaAAwLELCMpwgaYgpgCAMSKK0drB2iBtAC8h-3EpkGqx2aBq4d9yTOIPwkpSWdIbIlxzPhIMoytz8aMKCqCkgP9OLSx-ndRX2QPjJMHesQsoFWeQKYZ-p7lHVEr3PL5PwfSB9Gc-kSvTw2TSAEDAsQjq7-CBoKCggIARIEXM2_1kww&sa=X&ved=0ahUKEwj-vL_DqNXhAhUOna0KHUtWB54Qwg4IKCgA&biw=1366&bih=625&surl=1&safe=active&ssui=on#imgrc=m91L9yckp2lRZM:-->
+<img id="sun" onclick="selectSunglasses()" src="sun.jfif"/>
+	
+<!--https://www.google.com/search?hl=en&q=sunglasses+case&tbm=isch&tbs=simg:CAQSkwEJ04rEXRTxZ-oahwELEKjU2AQaAAwLELCMpwgaYgpgCAMSKKkS8x_1iBcMGiBKCApkGwQaJEqcS1iejNpo2iyX-JtcnwDXvNtcwoigaMHc9yWFXW7HZHom99RbLmTrLuPWifDUDYSK58EI4WQW9YYA3C74MHxePfR37Pl3uGyAEDAsQjq7-CBoKCggIARIEJcDydgw&sa=X&ved=0ahUKEwjKhbarqNXhAhVpmK0KHbGXAUYQwg4IKCgA&biw=1366&bih=625&surl=1&safe=active&ssui=on#imgrc=Bxe8hGDUPfjnvM:-->
+<img id="case" onclick="selectCase()" src="case.jpg"/>
+
+</p>
+
+<div id="orderDiv">
+	<button type="button" onClick="placeOrder();">Place order</button></p>
+	<button type="button" onClick="addContactlenses();">Add contact lenses</button></p>
+</div>
+
+<div>
+	<button onClick="" id="button">Press me</button>
+</div>
+
+<p>
+</p>
+
+<div style="background: #33ff33;height:300px;width:300px;position:absolute;"></div>
+
+</body>
+</html>
